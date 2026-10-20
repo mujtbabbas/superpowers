@@ -2,8 +2,23 @@
 
 Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.
 
+## About This Standalone Edition
+
+- **Main repository:** [obra/superpowers](https://github.com/obra/superpowers)
+- **Based on version:** upstream release `v7.0.0` (snapshot commit `bb92a77741419a4ab5f06e711a283343f1ada0c3`, snapshotted 2026-10-20; upstream HEAD dated 2026-10-09)
+- **This edition:** v1.1.0 (v1.0.0 = clean baseline of the upstream version above)
+- **What was done:** Converted from a fork into a standalone repository (fresh history, baseline commit), then enhanced in place by Syed Mujtaba Abbas.
+- **Enhancements in this edition (v1.1.0):**
+  - This About section, with full upstream credit and version provenance
+  - `ENHANCEMENTS.md` — per-version changelog of everything changed in this edition
+  - `.github/dependabot.yml` — weekly GitHub Actions and npm (tests/brainstorm-server) dependency updates; upstream had no Dependabot config and no Actions workflows
+  - `.markdownlint.json` + `.github/workflows/markdown-check.yml` — markdown linting automation for the skills and docs (the repo's first GitHub Actions workflow)
+  - `.editorconfig` — standard editor settings (UTF-8, LF, 2-space indent)
+- **Credit & licence:** All original work belongs to Jesse Vincent (obra) and the upstream contributors. Licence is preserved unchanged — see `LICENSE` (MIT). This edition adds the enhancements listed above only.
+
 ## Table of Contents
 
+- [About This Standalone Edition](#about-this-standalone-edition)
 - [How it works](#how-it-works)
 - [Commercial Services](#commercial-services)
 - [Getting Started](#installation)
