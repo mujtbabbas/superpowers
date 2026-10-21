@@ -1,0 +1,8 @@
+ignores:
+  - "*/**/*.md"
+  - ".github/**/*.md"
+  - "AGENTS.md"
+  - "CODE_OF_CONDUCT.md"
+  - "GEMINI.md"
+  - "README.md"
+  - "RELEASE-NOTES.md"
